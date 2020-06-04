@@ -1,0 +1,14 @@
+C:\Users\Code\source\repos\ATM\ATM\bin\Debug\ATM.exe.config
+C:\Users\Code\source\repos\ATM\ATM\bin\Debug\ATM.exe
+C:\Users\Code\source\repos\ATM\ATM\bin\Debug\ATM.pdb
+C:\Users\Code\source\repos\ATM\ATM\obj\Debug\ATM.csprojAssemblyReference.cache
+C:\Users\Code\source\repos\ATM\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
+C:\Users\Code\source\repos\ATM\ATM\obj\Debug\ATM.exe
+C:\Users\Code\source\repos\ATM\ATM\obj\Debug\ATM.pdb
+C:\Users\Code\source\repos\16-05-2020-atm-AytakinAgayeva1176\ATM\ATM\bin\Debug\ATM.exe.config
+C:\Users\Code\source\repos\16-05-2020-atm-AytakinAgayeva1176\ATM\ATM\bin\Debug\ATM.exe
+C:\Users\Code\source\repos\16-05-2020-atm-AytakinAgayeva1176\ATM\ATM\bin\Debug\ATM.pdb
+C:\Users\Code\source\repos\16-05-2020-atm-AytakinAgayeva1176\ATM\ATM\obj\Debug\ATM.csprojAssemblyReference.cache
+C:\Users\Code\source\repos\16-05-2020-atm-AytakinAgayeva1176\ATM\ATM\obj\Debug\ATM.csproj.CoreCompileInputs.cache
+C:\Users\Code\source\repos\16-05-2020-atm-AytakinAgayeva1176\ATM\ATM\obj\Debug\ATM.exe
+C:\Users\Code\source\repos\16-05-2020-atm-AytakinAgayeva1176\ATM\ATM\obj\Debug\ATM.pdb
