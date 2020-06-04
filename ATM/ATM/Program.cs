@@ -89,6 +89,10 @@ namespace ATM
                     Console.WriteLine("5. Diger Mebleg");
                     GetMoney(balance);
                     break;
+                default:
+                    Console.WriteLine("Duzgun emelliyati secin:");
+                    ChooseOperation(balance);
+                    break;
             }
         }
 
@@ -113,6 +117,10 @@ namespace ATM
                     Console.WriteLine("Meblegi daxil edin:");
                     Int32.TryParse(Console.ReadLine(), out int mny);
                     CheckBalance(balance, mny);
+                    break;
+                default:
+                    Console.WriteLine("Duzgun emelliyati secin:");
+                    GetMoney(balance);
                     break;
 
             }
