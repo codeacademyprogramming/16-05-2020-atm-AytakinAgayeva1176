@@ -20,12 +20,20 @@ namespace ATM
             users[4] = new User("Name5", "Surname5", new Card("567890123456", "5678", "567", "05/27", 1400));
 
 
-            Start(users);
+            ATM atm = new ATM();
+            
+            atm.Start(users);
 
 
         }
 
-        static void Start(User[] users)
+       
+    }
+
+     class ATM
+    {
+
+        public void Start(User[] users)
         {
             Console.WriteLine("Pin daxil edin");
 
@@ -34,7 +42,7 @@ namespace ATM
             CheckPin(pin, users);
         }
 
-        static void CheckPin(string pin, User[] users)
+        public void CheckPin(string pin, User[] users)
         {
             bool checkpin = true;
             string name = null;
@@ -72,7 +80,7 @@ namespace ATM
         }
 
 
-        static void ChooseOperation(decimal? balance)
+        public void ChooseOperation(decimal? balance)
         {
             Console.WriteLine("\n 1.Balans \n 2.Nagd pul");
 
@@ -96,7 +104,7 @@ namespace ATM
             }
         }
 
-        static void GetMoney(decimal? balance)
+        public void GetMoney(decimal? balance)
         {
             Int32.TryParse(Console.ReadLine(), out int money);
             switch (money)
@@ -126,7 +134,7 @@ namespace ATM
             }
         }
 
-        static void CheckBalance(decimal? balance , int amount)
+        public void CheckBalance(decimal? balance, int amount)
         {
             if (amount <= balance)
             {
@@ -142,7 +150,6 @@ namespace ATM
             }
         }
     }
-
 
     class Card
     {
